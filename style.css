@@ -1,14 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: 40px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #fafafa;
+  color: #111;
+  max-width: 800px;
+  margin: 80px auto;
   padding: 0 20px;
+  line-height: 1.6;
+}
+
+header {
+  margin-bottom: 80px;
 }
 
 nav a {
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
-  font-weight: bold;
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 a {
